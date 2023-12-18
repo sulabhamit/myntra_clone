@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+    /* background-color: bisque; */
+}
+header{
+    width: 100%;
+    height: 80px;
+    border: 2px solid black;
+    /* background-color: aqua; */
+    display: flex;
+    /* flex-direction: column; */
+}
+#container{
+    display: flex;
+       
+}
+#logo{
+    /* border: 2px solid black;
+    background-color: pink; */
+    display: inline-block;
+    width: 106px;
+    height: 80px;
+}
+#logo img{
+    width: 53px;
+    height: 36px;
+    margin: 20px 0px 0px 53.5px;
+}
+ul{
+    display:flex;
+    margin: 0px 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+.nav_content1{
+    width: 60px;
+    height: 76px;
+    /* border: 2px solid black; */
+    background-color: brown;
+       
+}
+.men{
+    width: 60px;
+    height: 76px;
+    /* border: 2px solid black; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.men:hover{
+    height: 74px;
+}
+.nav_content2{
+    width: 83.83px;
+    height: 76px;
+    /* border: 2px solid black; */
+    background-color: purple;
+       
+}
+.women{
+    width: 83.83px;
+    height: 76px;
+    /* border: 2px solid black; */
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.women:hover{
+    height: 74px;
+}
+.kids{
+    width: 60px;
+    height: 75px;
+    border: 2px solid black;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeandliving{
+    width: 140px;
+    height: 75px;
+    border: 2px solid black;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.beauty{
+    width: 60px;
+    height: 75px;
+    border: 2px solid black;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.studio{
+    width: 60px;
+    height: 75px;
+    border: 2px solid black;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ li{
+    /* margin: 0px 0px 0px 10px; */
+    list-style: none;
+    font-weight: bold;
+    }
