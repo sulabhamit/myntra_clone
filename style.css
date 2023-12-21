@@ -57,10 +57,18 @@ sup {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    position: relative;
 }
 
 
+#nav_content1:hover::after {
+  content: "";
+  position: absolute;
+  left: 20%;
+  right: 0%;
+  bottom: 0;
+  border: 2px solid pink;
+}
 #men {
     letter-spacing: .3px;
     width: 62.41px;
@@ -70,14 +78,19 @@ sup {
     cursor: pointer;
     font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
     
+    
 }
 
 
 #men li {
     width: 62.41px;
     height: 21px;
+    
        
 }
+
+
+  
 
 #nav_content2 {
     width: 83.83px;
@@ -85,8 +98,17 @@ sup {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 
 }
+#nav_content2:hover::after {
+    content: "";
+    position: absolute;
+    left: 20%;
+    right: 0%;
+    bottom: 0;
+    border: 2px solid purple;
+  }
 
 #women {
     letter-spacing: .3px;
@@ -109,9 +131,17 @@ sup {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 
 }
-
+#nav_content3:hover::after {
+    content: "";
+    position: absolute;
+    left: 20%;
+    right: 0%;
+    bottom: 0;
+    border: 2px solid orange;
+  }
 #kids {
     letter-spacing: .3px;
     width: 64.44px;
@@ -133,9 +163,17 @@ sup {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 
 }
-
+#nav_content4:hover::after {
+    content: "";
+    position: absolute;
+    left: 15%;
+    right: 0%;
+    bottom: 0;
+    border: 2px solid green;
+  }
 #homeandliving {
     letter-spacing: .3px;
     width: 131.16px;
@@ -157,9 +195,17 @@ sup {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 
 }
-
+#nav_content5:hover::after {
+    content: "";
+    position: absolute;
+    left: 20%;
+    right: 0%;
+    bottom: 0;
+    border: 2px solid tomato;
+  }
 #beauty {
     letter-spacing: .3px;
     width: 83.67px;
@@ -181,9 +227,17 @@ sup {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 
 }
-
+#nav_content6:hover::after {
+    content: "";
+    position: absolute;
+    left: 20%;
+    right: 0%;
+    bottom: 0;
+    border: 2px solid yellowgreen;
+  }
 #studio {
     letter-spacing: .3px;
     width: 82.78px;
