@@ -410,6 +410,7 @@ sup {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    cursor: pointer;
             
 }
 .bag_upper{
@@ -433,7 +434,7 @@ sup {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-            
+    cursor: pointer;
 }
 .bag_below{
     width: 270px;
@@ -465,6 +466,7 @@ sup {
     margin: 5px 150px;
     /* border: 2px solid black; */
     
+    
 }
 .lower ul{
     display: flex;
@@ -474,6 +476,7 @@ sup {
     padding:5px;
     list-style: none;
     color:rgb(163, 163, 248);
+    cursor: pointer;
 }
 
 .lower h2{
